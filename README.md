@@ -4,11 +4,11 @@ Este é um código em Python que implementa uma lista ligada simples, incluindo 
 
 ## Classes
 
-### `OutOfBoundsException`:
+### OutOfBoundsException:
 
 Uma exceção personalizada que é levantada quando uma operação tenta acessar um índice fora dos limites da lista.
 
-### `LinkedListNode`:
+### LinkedListNode:
 
 Esta classe representa um nó individual na lista ligada. Cada nó contém um valor e uma referência para o próximo nó (ou pode ser nulo no caso do último nó).
 
@@ -17,7 +17,7 @@ Esta classe representa um nó individual na lista ligada. Cada nó contém um va
 - `next`: Uma propriedade que retorna o próximo nó ou define o próximo nó.
 - `hasNext(self)`: Um método que verifica se existe um próximo nó.
 
-### `LinkedList`:
+### LinkedList:
 
 Esta classe representa a lista ligada em si e contém métodos para manipular a lista.
 
